@@ -4,8 +4,44 @@ body {
     padding: 100px 0;
 }
 .wrapper {
-    max-width: 980px;
-    margin: 0 auto;
+    max-width: 650px;
+    border: 1px solid lightgray;
+}
+.info {
+    color: #272522;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translate(-50%, -50%);
+}
+.info-down {
+    color: #272522;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translate(-50%, -50%);
+}
+.info-number {
+    color: #272522;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50%;
+    left: -30px;
+    transform: translate(0, 50%);
+}
+.info-number-right {
+    color: #272522;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50%;
+    right: -30px;
+    transform: translate(0, 50%);
 }
 .container-padding {
     padding: 80px;
@@ -31,4 +67,35 @@ body {
 }
 .cell-gray {
     background-color: #E1E0E1;
+}
+
+/* media queries per schermi inferiori a 600px */ 
+@media screen and (max-width: 600px) {
+    .cell i {
+        font-size: 2rem;
+    }
+    .info, .info-down,
+    .info-number, .info-number-right {
+        font-size: medium;
+    }
+}
+/* media queries per schermi inferiori a 550px */ 
+@media screen and (max-width: 550px) {
+    .cell i {
+        font-size: 1.5rem;
+    }
+    .info, .info-down,
+    .info-number, .info-number-right {
+        font-size: 14px;
+    }
+}
+/* media queries per schermi inferiori a 430px */
+@media screen and (max-width: 440px) {
+    .cell i {
+        font-size: 1rem;
+    }
+    .info, .info-down,
+    .info-number, .info-number-right {
+        font-size: 12.5px;
+    }
 }

@@ -8,8 +8,10 @@
     margin: 0 auto;
 }
 .container-max-width {
-    max-width: 1170px;
+    max-width: 750px;
     margin: 0 auto;
+    background-color: white;
+    border: 20px outset #EFEEEF;
 }
 .row {
     display: flex;
