@@ -1,0 +1,34 @@
+/* stili per scacchiera 6x6 */
+body {
+    background-color: #272522;
+    padding: 100px 0;
+}
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.container-padding {
+    padding: 80px;
+}
+.cell {
+    aspect-ratio: 1 / 1;
+}
+.position-relative {
+    position: relative;
+}
+.chess-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cell i {
+    font-size: 2.5rem;
+}
+.cell-white {
+    background-color: #FFFFFF;
+}
+.cell-gray {
+    background-color: #E1E0E1;
+}
