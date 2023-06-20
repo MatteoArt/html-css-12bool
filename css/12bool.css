@@ -49,11 +49,10 @@
     flex-basis: calc((100% / 12) * 12);
 }
 /* utilities */
-.col-blue {
-    background-color: #006BF7;
-    border: 1px solid white;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.row-95-percent {
+    width: 95%;
+    margin: 0 auto;
+}
+.margin-top {
+    margin-top: 30px;
 }

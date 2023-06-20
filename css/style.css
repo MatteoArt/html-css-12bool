@@ -1,0 +1,23 @@
+/* stili specifici per questo layout */
+
+.col-blue {
+    background-color: #006BF7;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col-blue-no-text {
+    background-color: #006BF7;
+    border: 1px solid white;
+    height: 60px;
+}
+.col-green {
+    background-color: #00DD63;
+    border: 1px solid #006BF7;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
